@@ -31,7 +31,7 @@ public class TriangleTest {
 	  }
 	 
 	  
-	/* Равносторонний треугольник*/
+	/* Р Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє*/
 	  @Test
 	  public void Test1() {
 		    driver.get("https://www.calculator.net/triangle-calculator.html");
@@ -45,7 +45,7 @@ public class TriangleTest {
 	    assertEquals(driver.findElement(By.cssSelector("h3")).getText(), ("Equilateral Triangle"));
 	  }
 	 
-	  /* Равнобедренный треугольник*/
+	  /* Р Р°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє*/
 	  @Test
 	  public void Test2() {
 		    driver.get("https://www.calculator.net/triangle-calculator.html");
@@ -64,7 +64,7 @@ public class TriangleTest {
 	    assertEquals(driver.findElement(By.cssSelector("h3")).getText(), ("Obtuse Isosceles Triangle"));
 	  }
 	  
-	  /* Не является треугольником */
+	  /* РќРµ СЏРІР»СЏРµС‚СЃСЏ С‚СЂРµСѓРіРѕР»СЊРЅРёРєРѕРј */
 	  @Test
 	  public void Test3() {
 	    driver.get("https://www.calculator.net/triangle-calculator.html");
@@ -77,7 +77,7 @@ public class TriangleTest {
 	    assertEquals(driver.findElement(By.cssSelector("font")).getText(), ("The sum of two sides must be larger than the third."));
 	  }
 	  
-	  /* Прямоугольный треугольник */
+	  /* РџСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє */
 	  
 	  @Test
 	  public void Test4() {
@@ -89,6 +89,5 @@ public class TriangleTest {
 		    driver.findElement(By.cssSelector("tr:nth-child(5) input")).click();
 		    assertEquals(driver.findElement(By.cssSelector("h3")).getText(), ("Right Isosceles Triangle"));
 	  }	
-	
 	
 }
