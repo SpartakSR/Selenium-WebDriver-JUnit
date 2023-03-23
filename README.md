@@ -1,4 +1,4 @@
-# Задание: Selenium WebDriver: установка инфраструктуры и выполнение сценария.
+# Selenium WebDriver: установка инфраструктуры и выполнение сценария.
 
 ## JUnit 5, selenium-java-4.8.1, Google Chrome 111.0.5563.65(64 бит)
 
