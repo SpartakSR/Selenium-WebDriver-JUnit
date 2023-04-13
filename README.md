@@ -20,3 +20,4 @@
 
 8. Доработка и запуск тестов в Eclipse.
 
+![image](https://user-images.githubusercontent.com/127390983/231825011-72b17799-3b31-4893-ab79-ef711f7b82ef.png)
